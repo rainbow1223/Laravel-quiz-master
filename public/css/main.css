@@ -1,0 +1,1209 @@
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'machform' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+#main {
+    font-family: "glober_regularregular", "Lucida Grande", Tahoma, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border-radius: 0px;
+    float: left;
+    width: 1030px;
+    padding: 20px 0;
+    background-color: #fff;
+    border-top: 1px solid #eaeded;
+    box-shadow: 0 1px 1px 0 rgba(0, 28, 36, 0.5);
+}
+
+#main #content {
+    float: left;
+    margin: 0 0 20px 0;
+    width: 1030px;
+}
+
+#content .post {
+    color: #000000;
+    padding: 0;
+    width: 100%;
+}
+
+/*content header*/
+
+#content .post .content_header {
+    padding: 0 20px 20px 20px;
+}
+
+#content .post .content_header .content_header_title {
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+#content .post .content_header .content_header_title h2 {
+    margin: 0;
+    font-family: "glober_regularregular", "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size: 170%;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#content .post .content_header .content_header_title p {
+    margin: 0;
+    font-family: "glober_regularregular", "Lucida Grande", Tahoma, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+#content .post .content_header .content_header_title #button_add_user, #content .post .content_header .content_header_title #button_create_exam, .create_form button, #button_create_quiz, .quiz button.quiz_handle_button {
+    line-height: 1.5;
+    margin: 0;
+    vertical-align: baseline;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-family: 'globerbold', HelveticaNeue, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 5px 15px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #5a9117;
+    color: #fff;
+    box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, .132), 0 .3px .9px 0 rgba(0, 0, 0, .108);
+    border: none;
+}
+
+.icon-file-empty:before {
+    content: "\e6b3";
+}
+
+.icon-user-plus:before {
+    content: "\e187";
+}
+
+/*content body*/
+#content .post .content_body {
+    padding: 0 20px;
+    min-height: 200px;
+}
+
+#quiz_form .content_body {
+    background-color: #f1f1f1;
+}
+
+#content .post .content_body #entries_actions {
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: #fff2ef;
+    background-image: -webkit-linear-gradient(top, rgb(255, 242, 239), rgb(245, 211, 203));
+    float: left;
+    position: relative;
+}
+
+#content .post .content_body #entries_actions ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    list-style: none;
+}
+
+#content .post .content_body #entries_actions ul li {
+    float: left;
+}
+
+#content .post .content_body #entries_actions ul li a {
+    font-family: 'globerbold', Arial, helvetica, 'Trebuchet MS', 'Lucida Grande';
+    color: #cb6852;
+    font-weight: 400;
+    display: block;
+    padding: 5px 10px 2px 10px;
+    font-size: 100%;
+    text-align: center;
+}
+
+#content .post .content_body #entries_actions ul li a span {
+    display: block;
+    font-size: 17px;
+}
+
+#entries_actions a:hover, #entries_options a:hover {
+    text-decoration: none;
+}
+
+.icon-remove:before {
+    content: "\e24f";
+}
+
+.icon-user-block:before {
+    content: "\e18c";
+}
+
+#entries_actions .vline_separator {
+    border-left: 1px dotted #CB6852;
+}
+
+#entries_actions_arrow {
+    position: absolute;
+    left: 5px;
+    top: 100%;
+}
+
+#content a:link {
+    text-decoration: none;
+}
+
+#content .post .content_body #entries_options {
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: #eff6ff;
+    background-image: -webkit-linear-gradient(top, rgb(239, 246, 255), rgb(211, 227, 245));
+    float: right;
+}
+
+#content .post .content_body #entries_options li {
+    float: right;
+}
+
+#content .post .content_body #entries_options li a {
+    font-family: 'globerbold', Arial, helvetica, 'Trebuchet MS', 'Lucida Grande';
+    color: #3B699F;
+    font-weight: 400;
+    display: block;
+    padding: 5px 10px 2px 10px;
+    font-size: 100%;
+    text-align: center;
+}
+
+#content .post .content_body #entries_options li a span {
+    display: block;
+    font-size: 17px;
+}
+
+.icon-binoculars:before {
+    content: "\e1b4";
+}
+
+#entries_container {
+    width: 100%;
+    margin: 5px 0 auto;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#entries_table {
+    table-layout: fixed;
+    width: 100%;
+    margin: 10px 0 0 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#entries_table thead, #entries_table tbody, #entries_table tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#entries_table td {
+    padding: 5px;
+    border-bottom: 1px dotted #8EACCF;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#entries_table th {
+    color: #fff;
+    font-family: Arial, helvetica, 'Helvetica Neue', Arial, 'Trebuchet MS', 'Lucida Grande';
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #3B699F;
+    text-shadow: 0 1px 1px #000000;
+    text-align: left;
+    border-right: 1px dotted #ffffff;
+    padding-left: 5px !important;
+    padding-right: 6px !important;
+}
+
+.me_action {
+    padding-left: 5px !important;
+    padding-right: 6px !important;
+    width: 20px;
+    text-align: left;
+    border-left: none !important;
+}
+
+.me_number {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center !important;
+    width: 35px;
+}
+
+#entries_container table div {
+    height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#button_create_exam .fas, #button_create_quiz .fas {
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+/*exam list*/
+.content_body_main {
+    width: 100%;
+    transition: width 150ms ease 0s;
+    float: left;
+}
+
+#mf_form_list li.form_visible {
+    display: block;
+}
+
+#mf_form_list > li {
+    margin-bottom: 8px;
+    padding: 0px;
+    color: #fff;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 25%), 0 0 1px rgb(0 0 0 / 30%);
+    display: none;
+}
+
+#mf_form_list li .middle_form_bar, #mf_folder_list li .middle_folder_bar {
+    background-color: #518018;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#mf_form_list li .middle_form_bar p {
+    padding-left: 10px;
+}
+
+#mf_form_list li .middle_form_bar {
+    border-radius: 0px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+}
+
+#mf_form_list li h3 {
+    padding: 10px 10px 10px 13px;
+    cursor: pointer;
+    float: left;
+    display: block;
+}
+
+.content_body h3, #ex1 h3 {
+    font-family: "glober_regularregular", "Trebuchet MS", "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size: 145%;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#ex1 h3 {
+    border-bottom: 1px dotted gray;
+    padding-bottom: 10px;
+}
+
+#mf_form_list .form_meta {
+    float: right;
+    height: 42px;
+}
+
+#mf_form_list .form_actions, #mf_form_list .form_export {
+    float: right;
+    padding-top: 14px;
+    padding-left: 0px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+#mf_form_list .form_actions a, #mf_form_list .form_export a {
+    color: #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 135%;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 25%), 0 0 1px rgb(0 0 0 / 30%);
+}
+
+#mf_form_list li.form_selected .form_option, #mf_form_list li.form_selected .form_option_separator, #mf_form_list li.form_selected .bottom_form_bar {
+    display: block;
+}
+
+#mf_form_list li .bottom_form_bar {
+    background-color: #5fa210;
+    border-top: 1px solid #85b44c;
+}
+
+#mf_form_list li .bottom_form_bar {
+    border-radius: 0px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+    width: 100%;
+    overflow: hidden;
+    height: 37px;
+    box-sizing: border-box;
+}
+
+#mf_form_list li.form_selected .form_option, #mf_form_list li.form_selected .form_option_separator, #mf_form_list li.form_selected .bottom_form_bar {
+    display: block;
+}
+
+#mf_form_list .form_option {
+    float: left;
+    padding: 10px;
+    color: #fff;
+    margin-left: 0px;
+    line-height: 14px;
+}
+
+#mf_form_list .form_option a {
+    color: #fff;
+    padding: 0;
+    line-height: 14px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: "globersemibold", Arial, 'HelveticaNeue', helvetica, 'Helvetica Neue', Arial, 'Trebuchet MS', 'Lucida Grande';
+    font-size: 95%;
+    font-weight: 400;
+}
+
+#mf_form_list .form_option span[class^="icon-"] {
+    font-size: 120%;
+    margin-right: 5px;
+}
+
+#mf_form_list .form_option_separator {
+    border-left: 2px solid #85b44c;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.create_form input:focus, .create_form textarea:focus {
+    box-shadow: 0 0 0 0.2rem #5a911725 !important;
+    border-color: #5a9117 !important;
+}
+
+#mf_form_list li .middle_form_bar:hover, #mf_form_list .form_option:hover {
+    background-color: #85b44c;
+}
+
+.form_option .fa, .form_option .far, .form_option .fas {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+#ex1 div.col-3 {
+    text-align: center;
+}
+
+.quiz_type {
+    width: 80px;
+    height: 60px;
+    margin: 10px auto;
+}
+
+.form_view_element .choice_item label, .form_view_element .response_item label, .form_view_element .sequence_item label {
+    padding: 0 0 0 5px;
+    width: 440px;
+}
+
+.matching_item label {
+    padding: 0 0 0 5px;
+    width: 220px;
+}
+
+.choice_item td:nth-child(2) input, .response_item td:nth-child(2) input, .sequence_item input {
+    width: 395px;
+    padding: 4px 0;
+}
+
+.matching_item input {
+    width: 175px;
+    padding: 4px 0;
+}
+
+.feedback_branching label:nth-child(1) {
+    width: 345px;
+}
+
+.feedback_branching input:nth-child(1) {
+    width: 300px;
+    padding: 4px 0;
+}
+
+.feedback_branching tr td:last-child .form_view_textbox_editable, .feedback_branching tr td:last-child label {
+    width: 50px !important;
+}
+
+.choice_item i, .response_item i, .select_item i, #numeric_list i, #sequence_list i, #matching_list i, #short_answer_list i, .ui-state-default i, .dropdown i {
+    font-size: 18px;
+}
+
+.select_item input, .select_item select {
+    margin: 0 5px;
+}
+
+.richText-help {
+    display: none !important;
+}
+
+.ui-state-default {
+    display: flex;
+    align-items: center;
+}
+
+.textarea_dropdown {
+    height: 200px;
+    border: 1px black solid;
+    margin: auto;
+    word-break: break-all;
+    overflow-y: scroll;
+}
+
+.textarea_dropdown span {
+    border-right: 1px solid transparent;
+    letter-spacing: -0.5px;
+}
+
+.textarea_dropdown .cursor {
+    border-right: 1px solid black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 2px;
+    font-size: 14px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content input:nth-child(2), .dropdown-content label {
+    width: 160px;
+    margin: 0 !important;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
+
+#main.quiz, main.quiz {
+    width: 100%;
+    padding: 0;
+}
+
+#main.quiz #content {
+    width: 100%;
+}
+
+main.quiz {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+#main.quiz > h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 5px 2px;
+    background: #dcdcdc;
+    position: relative;
+    top: -2px;
+}
+
+.ribbon-dropdown .col-3 {
+    height: 110px;
+}
+
+.listview.view-content .node > .data {
+    padding-left: 8px;
+}
+
+.slide_option .dropdown-toggle:after {
+    display: none;
+}
+
+#slide_details .d-menu li a, #slide_details .v-menu li a {
+    padding: 0 0 0 0.5rem;
+}
+
+.slide_option > div {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.quiz_handle_button i {
+    font-size: medium;
+    padding-right: 10px;
+}
+
+.resize-element {
+    z-index: 0 !important;
+}
+
+#quiz_list .node-toggle {
+    z-index: 0;
+}
+
+#question span {
+    color: black;
+}
+
+div[contenteditable="true"] {
+    outline: none;
+    cursor: text;
+}
+
+.slide_view_element label[data-editable] {
+    display: contents;
+}
+
+#slide_view_container input, #slide_view_container select {
+    color: black;
+}
+
+/**********************************************
+*                                             *
+*            Fill in the Blanks               *
+*           & Select from Lists               *
+*                                             *
+***********************************************/
+
+#fill_blanks, #select_lists {
+    height: 216px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+#fill_blanks .fill_blanks_dropdown, #select_lists .select_lists_dropdown {
+    display: inline;
+}
+
+
+#fill_blanks .fill_blanks_dropdown_body, #select_lists .select_lists_dropdown_body {
+    border: 1px solid gray;
+    display: inline;
+}
+
+#fill_blanks .fill_blanks_dropdown_body:hover, #select_lists .select_lists_dropdown_body:hover {
+    border: 1px solid #ee8845;
+}
+
+#fill_blanks .fill_blanks_dropdown_content, #select_lists .select_lists_dropdown_content {
+    display: inline;
+    padding: 0 5px;
+    margin-left: 50px;
+}
+
+#fill_blanks .fill_blanks_dropdown_arrow, #select_lists .select_lists_dropdown_arrow {
+    border-left: 1px solid transparent;
+    display: inline;
+    cursor: pointer;
+}
+
+#fill_blanks .fill_blanks_dropdown_arrow:hover, #select_lists .select_lists_dropdown_arrow:hover {
+    border-left: 1px solid #ee8845;
+    background: #fbe5da;
+}
+
+#fill_blanks .fill_blanks_dropdown_arrow i, #fill_blanks .fill_blanks_dropdown_menu i, #select_lists .select_lists_dropdown_arrow i, #select_lists .select_lists_dropdown_menu i {
+    font-size: 14px;
+}
+
+#fill_blanks .fill_blanks_dropdown_menu, #select_lists .select_lists_dropdown_menu {
+    position: absolute;
+    border: 1px solid gray;
+    display: none;
+    left: 0;
+    background: white;
+    z-index: 2;
+}
+
+#fill_blanks .fill_blanks_dropdown_menu ul, #select_lists .select_lists_dropdown_menu ul {
+    padding: 2px 5px;
+    min-width: 220px;
+    max-height: 130px;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+#fill_blanks .fill_blanks_dropdown_menu ul li, #select_lists .select_lists_dropdown_menu ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#select_lists .select_lists_dropdown_menu ul li div {
+    display: flex;
+    align-items: center;
+}
+
+#fill_blanks .fill_blanks_dropdown_menu ul li label, #select_lists .select_lists_dropdown_menu ul li label {
+    margin-bottom: 0;
+}
+
+/**********************************************
+*                                             *
+*                   Hotspots                  *
+*                                             *
+***********************************************/
+
+#hotspots {
+    height: 216px;
+    border: 1px dotted gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#hotspots > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hotspots > div > h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#hotspots > div .from_files {
+    width: 70px;
+    height: 70px;
+    background: white;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 12px;
+}
+
+#hotspots > div .from_files:hover {
+    border: 1px solid #ee8845;
+    background: #fbe5da;
+}
+
+#drag_words {
+    padding: 5px;
+}
+
+.listview.view-content .node > .data .caption {
+    overflow: hidden;
+}
+
+.canvas-container {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript,
+if it's not present, don't show loader */
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/Preloader_2.gif) center no-repeat #fff;
+}
+
+#quiz_list li.node-group > .data {
+    background: #e8e8e8;
+}
+
+.quiz #main {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.se-pre-con-show {
+    background-color: #fff8;
+}
+
+.ui-widget-header p, .ui-widget-content p {
+    margin-bottom: 1rem;
+}
+
+.ui-state-default label {
+    display: inline-block !important;
+}
+
+.quiz #main .slide_view_group {
+    border: 1px dotted grey;
+    box-shadow: rgb(255 255 255) 0px 0px 1px 1px;
+    cursor: move;
+}
+
+.slide_view_group {
+    padding: 0 !important;
+}
+
+.quiz #main .selected_slide_view_group {
+    overflow: unset !important;
+}
+
+#quiz_list li.current-group > .data {
+    background-color: #fbd8be !important;
+}
+
+/*#slide_drag_words_question .blank {*/
+/*    padding-left: 70px;*/
+/*}*/
+
+#slide_drag_words_answer {
+    padding: 5px;
+}
+
+#slide_drag_words_answer span {
+    margin: 0 5px;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.form_view_element div[contenteditable='true'] ol {
+    margin-left: 20px;
+}
+
+.matching_item .ui-icon-arrowthick-2-n-s {
+    display: none;
+}
+
+#quiz_view .slide_view_answer_element .col-md-12 {
+    pointer-events: none;
+}
+
+/*
+****************** Preview Modal ******************
+*/
+#preview_container {
+    position: relative;
+}
+
+#preview_toast {
+    position: absolute;
+    width: 550px;
+    background: white;
+    left: 50%;
+    z-index: 1000;
+    margin-left: -275px;
+    bottom: 100px;
+    border-radius: 10px;
+    box-shadow: grey 1px 1px 10px 3px;
+}
+
+#preview_toast_title {
+    height: 45px;
+    width: 100%;
+    background: red;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#preview_toast_body {
+    padding: 10px 25px;
+    font-size: 18px;
+    line-height: 3;
+}
+
+#question_control_btn_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#question_control_btn_container button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px !important;
+    width: 80%;
+}
+
+.preview_item {
+    margin: 15px 0;
+}
+
+.preview_item > div {
+    pointer-events: none;
+}
+
+#slide_view_quiz_list > div {
+    padding: 10px;
+}
+
+#slide_view_quiz_list .selected_preview_item {
+    background-color: #ffcca6;
+}
+
+#slide_view_quiz_list > div > div {
+    border: 1px solid grey;
+}
+
+/*
+******** image popup modal ***************
+*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    /*height: 100%; !* Full height *!*/
+    /*overflow: auto; !* Enable scroll if needed *!*/
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/*
+************** Question Save Alert ******************
+*/
+.quiz_dialog {
+    position: fixed;
+    background: white;
+    width: 560px;
+    left: 50%;
+    margin-left: -280px;
+    top: 195px;
+    box-shadow: grey 2px 2px 6px 2px;
+    z-index: 1000;
+    border-radius: 10px;
+    display: none;
+}
+
+.quiz_dialog .quiz_dialog_content {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quiz_dialog .quiz_dialog_btn {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.quiz_dialog .quiz_dialog_btn button {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#quiz_layout #preview_toast {
+    position: fixed;
+    display: block;
+    bottom: unset;
+    top: 195px;
+}
+
+.select_lists_dropdown_menu .form_view_textbox_editable {
+    min-width: 150px;
+}
+
+#form_view_quiz_list .listview {
+    display: block !important;
+}
+
+#quiz_delete_yes {
+    outline-color: #adeb6e;
+    background-color: #60a917;
+    color: #ffffff;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0 0.75rem;
+    font-size: 0.875rem;
+    height: 36px;
+}
+
+#quiz_delete_no {
+    outline-color: #ffffff;
+    background-color: #f8f8f8;
+    color: #1d1d1d;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0 0.75rem;
+    font-size: 0.875rem;
+    height: 36px;
+}
+
+.other_slide_view_element_delete_icon {
+    cursor: pointer;
+}
+
+.slide_option input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+#slide_details .select .dropdown-toggle::before {
+    visibility: visible;
+}
+
+#slide_details .select .option-list a {
+    padding: 0 0rem 0 0.5rem !important;
+}
+
+.hotspots_active {
+    border: 1px solid #ee8845 !important;
+    background: #fbe5da;
+}
+
+.checkbox.transition-on .check {
+    background: white;
+}
+
+.input input {
+    width: 65px;
+}
+
+.question_score [contenteditable=true], .fill_blanks_dropdown_menu [contenteditable=true], .select_lists_dropdown_menu [contenteditable=true] {
+    overflow-y: unset !important;
+}
+
+.form_view_answer_element i {
+    cursor: pointer;
+}
+
+.tmp {
+    opacity: 0.2;
+}
+
+.slide_view_answer_element form > div {
+    padding-bottom: 5px;
+}
+
+.slide_view_answer_element form input, .slide_view_answer_element form select {
+    width: 100%;
+}
+
+.user_info_dropdown_body {
+    width: 82%;
+    display: flex;
+    border: 1px solid #767676;
+    align-items: center;
+}
+
+.user_info_dropdown_content {
+    width: 90%;
+    height: 28px;
+}
+
+.user_info_dropdown_arrow i, .user_info_dropdown_menu i {
+    font-size: 18px;
+}
+
+.user_info_dropdown_menu {
+    position: absolute;
+    border: 1px solid #767676;
+    width: 100%;
+    top: 28px;
+    z-index: 1;
+    background: white;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.user_info_dropdown_menu li {
+    list-style-type: none;
+    padding-top: 5px;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_info_dropdown_menu li > i {
+    font-size: 14px;
+}

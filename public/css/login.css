@@ -1,0 +1,122 @@
+#login_container {
+    max-width: 440px;
+}
+
+#login_main {
+    box-shadow: 0 1px 1px 0 rgba(0 28 36 0.5);
+    border-top: 5px solid #D66700;
+}
+
+#login_logo {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'machform' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 64px;
+    float: left;
+    padding-right: 10px;
+    color: #444;
+}
+
+#login_main .card {
+    padding: 20px 35px 5px;
+}
+
+#login_main .card h3 {
+    line-height: 1.5;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    color: #444;
+    font-family: "globersemibold","Lucida Grande",Tahoma,Arial,Verdana,sans-serif;
+    font-size: 170%;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+#login_main .card p {
+    font-family: "glober_regularregular","Lucida Grande",Tahoma,Arial,sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+}
+
+#login_main .card-body form .form-group {
+    display: block;
+}
+
+#login_main .card-body form .form-group label {
+    list-style: none;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    border: medium none;
+    padding: 0pt 4px 1px 0pt;
+    line-height: 150%;
+    display: block;
+    margin: 1px !important;
+    color: #222222;
+    font-size: 100%;
+    font-weight: 400;
+    font-family: 'globerbold',Arial,helvetica;
+    margin: 0;
+}
+
+#login_main input:focus {
+    box-shadow: 0 0 0 0.2rem #5a911725 !important;
+    border-color: #5a9117 !important;
+}
+
+#login_main button {
+    overflow: visible;
+    font-family: inherit;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: calc(1.6em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    box-shadow: 0 0 0 0.2rem #5a911725 !important;
+    border-color: #5a9117 !important;
+    background-color: #5a9117 !important;
+    outline: 0;
+}
+
+#login_main .card-body form .form-group a {
+    font-family: "glober_regularregular","Lucida Grande",Tahoma,Arial,sans-serif;
+    line-height: 1.5;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    color: #BD3D20;
+}

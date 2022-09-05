@@ -1,0 +1,73 @@
+#app .navbar {
+    font-family: "glober_regularregular","Lucida Grande",Tahoma,Arial,sans-serif;
+    line-height: 1.5;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    padding: 10px 0 0 0;
+    margin: 0 0 15px 0;
+    text-align: center;
+    background-color: #d4670f !important;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+#app .navbar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    align-items: flex-end;
+}
+
+#app .navbar .container .navbar-brand {
+    width: 200px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    margin: 0 20px 15px 0;
+}
+
+#app .navbar .container .navbar-brand img {
+    margin-left: 8px;
+    max-height: 40px;
+    max-width: 200px;
+}
+
+#navbarSupportedContent ul {
+    /*width: 60px;*/
+    margin: 0 10px;
+    float: left;
+    align-items: flex-end;
+}
+
+#navbarSupportedContent ul li a:hover {
+    color: #ffc83d;
+    border-bottom: 3px solid #ffc83d;
+}
+
+#navbarSupportedContent ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0 0 6px 0;
+    margin: 0 10px;
+    width: 50px;
+    border-bottom: 3px solid #d4670f;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'machform' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fab, .far, .fas {
+    font-size: 25px;
+}

@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/civilsaf/public_html/quizmaker
+    - /bin/cp -R * $DEPLOYPATH

@@ -1,0 +1,227 @@
+#preview_container {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#preview_container .resize-element::after {
+    display: none !important;
+}
+
+.quiz_item_container {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.quiz_item_container .slide_view_answer_element {
+    overflow: unset !important;
+}
+
+.preview_btn, .review_buttons {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.preview_btn button, .review_buttons button {
+    z-index: 10;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid darkseagreen;
+}
+
+.quiz_hide {
+    display: none;
+}
+
+.quiz_show {
+    display: block;
+}
+
+.slide-list-header {
+    display: flex;
+}
+
+.slide-state-list-row {
+    display: flex;
+    align-items: center;
+    height: 75px !important;
+}
+
+.slide-state-list-row__items-container {
+    display: flex;
+}
+
+.slide-state-list-row__title {
+    overflow: hidden;
+}
+
+/*
+* ************ Question List Modal *************
+*/
+#question_list_modal {
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #0009;
+    display: none;
+}
+
+#question_list_modal_close {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#question_list_modal_content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+#question_list_header {
+    padding: 10px;
+    background: #e3e3e3;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.question_list_body {
+    padding: 10px;
+    border-bottom: 1px dotted gray;
+    margin: 0;
+}
+
+.question_list_body .col-1 {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.col-9.question_content {
+    height: 42px;
+    overflow: hidden;
+}
+
+#preview_container #slide_drag_words_question .review_drag_words {
+    padding: 5px 10px !important;
+}
+
+#preview_container .canvas-container {
+    position: absolute !important;
+    top: 0;
+}
+
+#question_list {
+    padding: 0 5px 0 20px;
+}
+
+#question_list:hover {
+    background: gainsboro;
+    cursor: pointer;
+}
+
+.disable_btn {
+    background-color: gray !important;
+}
+
+#timer_confirm_dialog {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    box-shadow: grey 1px 1px 3px 1px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    background-color: white;
+}
+
+#timer_dialog_content {
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#timer_dialog_btn {
+    display: flex;
+    justify-content: center;
+}
+
+#timer_dialog_btn button {
+    background: #2f7de3;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 25px;
+    border-radius: 8px;
+}
+
+#question_time {
+    color: red;
+}
+
+.slide_view_media_element {
+    cursor: pointer;
+}
+
+#slide_drag_words_answer {
+    position: relative;
+}
+
+#progress_bar_container {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 50%);
+    z-index: 1000;
+    display: none;
+}
+
+#progress_bar_content {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.choice_item label,
+.response_item label {
+    margin-bottom: 0;
+    padding-left: 10px;
+}

@@ -1,0 +1,17 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Civil Safety Quiz Maker",
+    "short_name": "Quiz Maker",
+    "scope": "/quizmaker/public/login",
+    "display": "fullscreen",
+    "start_url": "https://civilsafetyonline.com.au/quizmaker/public/login",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "This is Quiz Maker for Civil Safety Company.",
+    "orientation": "landscape",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://civilsafetyonline.com.au/quizmaker/public/preview_exam/45"
+}
